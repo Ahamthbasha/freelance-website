@@ -1,0 +1,210 @@
+#topnav{
+    background-color: green !important;
+    padding: 0 8%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    padding-left:20px;
+    font-size:20px;
+}
+#searchbox{
+    background-color: beige;
+    position:relative;
+    left:10px;
+}
+#searchbutton{
+    background-color:aqua;
+    z-index:99;
+}
+
+@media only screen and (max-width:768px)
+{
+    #searchformbtn{
+        margin-bottom:30px;
+        margin-top:20px;
+    }
+}
+/*banner section*/
+#banner{
+    background-color: aqua;
+}
+#bannertext h1{
+    color:white;
+    font-size:50px;
+}
+#bannertext p{
+    color:white;
+}
+.btn{
+    background-color: aquamarine;
+}
+#banner-btn-1{
+    color:black;
+    border:2px solid black;
+}
+#banner-btn-2{
+    color:white;
+    border:2px solid red;
+    margin-left:20px;
+}
+@media only screen and (max-width:1100px){
+    #bannertext h1{
+        font-size:30px;
+    }
+}
+#bannerimg{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media only screen and (max-width:1190px){
+    #bannerimg{
+        padding-top: 50px;
+    padding-bottom: 50px;
+    }
+} 
+/*special offer*/
+#specialtext{
+    padding-top: 20%;
+    padding-bottom:5%;
+}
+#specialbtn{
+    background-color: red;
+}
+#specialzone{
+    background-color: red;
+}
+#specialimg{
+    padding-top:5%;
+    padding-bottom:5%;
+}
+#counter h1, h3, i{
+    text-align:center;
+}
+#counter{
+    background-color: beige;
+}
+ #blog{
+    text-align: center;
+ }
+ #wd{
+    background-color: aqua;
+ }
+ #wbimg{
+    padding-top:5%;
+    padding-bottom:5%;
+ }
+ #wbtext{
+    text-align: center;
+    background-color: bisque;
+    padding-top: 5%;
+    padding-bottom:5%;
+ }
+ #wbtext ul{
+    list-style-type: none;
+ }
+ #wbtext button{
+    background-color: blueviolet;
+ }
+ #da{
+    background-color:black;
+    color:white;
+ }
+ #datext ul{
+    list-style-type: none;
+ }
+ #datext{
+    padding-top:5%;
+    padding-bottom:5%;
+    text-align: center;
+    align-content: center;
+ }
+ #daimg{
+    padding-top:5%;
+    padding-bottom:5%;
+ }
+ #blog{
+    background-color: yellow;
+ }
+ #roles{
+    background-color: yellow;
+ }
+ #imgtext{
+    align-content: center;
+    text-align:center;
+ }
+ #sm:hover{
+border:2px solid red;
+ }
+ #imgtext ul{
+    list-style-type: none;
+ }
+ @media only screen and (max-width:800px)
+ {
+    #fw{
+        margin-top:5%;
+    }
+    #sm {
+        margin-bottom:5%;
+    }
+    #ar{
+        margin-bottom:5%;
+    }
+    #ch{
+        margin-bottom:5%;
+    }
+ }
+#sign{
+    text-align:center;
+}
+#submitbtn{
+    margin-bottom:2%;
+}
+@media only screen and (max-width:500px){
+    #sign{
+        margin-top:5%;
+    }
+}
+#signinform{
+    background-color: beige;
+}
+#fill{
+    background-color: bisque;
+}
+#aboutus{
+    background-color: black;
+    color:white;
+    text-align:center;
+}
+#about{
+    background-color: aqua;
+}
+#about h5, i{
+    display:flex;
+    justify-content: space-evenly;
+}
+#search{
+    background-color: rgb(49, 45, 45);
+    color:white;
+    display:flex;
+    text-align: center;
+}
+#searchb i{
+    font-size:20px;
+}
+#searchb i:hover{
+    border:2px solid red;
+}
+#copyrights{
+    background-color: black;
+    color:white;
+    display:flex;
+    text-align:center;
+}
+#btt{
+    background-color: rgb(186, 152, 152);
+    color:white;
+}
+#btt p{
+    display:flex;
+    justify-content: center;
+}
